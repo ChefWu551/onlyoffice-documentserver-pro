@@ -1,5 +1,10 @@
 # onlyoffice
-> ### 逐渐更新中。。。
+>  逐渐更新中。。。
+> ### todo list:
+>> #### a. example改造为spring
+>> #### b. 加入文件服务(尽可能通用化)
+>> #### c. 加入editor和index的权限控制
+>> #### d. 修改一些中文版本的bug
 ## 1. 关于onlyoffice documentserver 中文优化
 ### 1.1. 优化点
 > #### onlyoffice 界面的汉化
