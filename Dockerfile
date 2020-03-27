@@ -10,6 +10,4 @@ RUN fc-cache -f -v && /usr/bin/documentserver-generate-allfonts.sh
 COPY web-apps /var/www/onlyoffice/documentserver/web-apps
 EXPOSE 80 443
 VOLUME /etc/onlyoffice /var/log/onlyoffice /var/lib/onlyoffice /var/www/onlyoffice/Data /var/lib/postgresql /usr/share/fonts/truetype/custom /usr/share/fonts/winfont
-# 设置关闭后2秒内自动保存(默认10s)
-# 修改 /etc/onlyoffice/documentserver/config.json 详情请参见官网
 CMD bash -C '/app/onlyoffice/run-document-server.sh';'bash'
