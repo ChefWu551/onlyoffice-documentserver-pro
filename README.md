@@ -1,7 +1,7 @@
 # onlyoffice
 >  逐渐更新中。。。
 > ### todo list:
->> #### a. example改造为spring
+>> #### a. example改造为spring（20200327已完成，见git@github.com:ToBigToSmall/onlyoffce-example-spring.git）
 >> #### b. 加入文件服务(尽可能通用化)
 >> #### c. 加入editor和index的权限控制
 >> #### d. 修改一些中文版本的bug
