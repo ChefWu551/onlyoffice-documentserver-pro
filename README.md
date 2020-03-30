@@ -18,9 +18,9 @@
 ##### a. 快速体验
 注意：目前提供打包好的镜像只是个效果镜像，不提供真正实际使用场景
 
-`docker pull registry.cn-shanghai.aliyuncs.com/wuyuefeng/onlyoffice-documentserver-pro:5.4.2`
+`docker build -t onlyoffice-documentserver-chinese .`
 
-`docker run -p 80:80 -p 443:443 -itd --name registry.cn-shanghai.aliyuncs.com/wuyuefeng/onlyoffice-documentserver-pro:5.4.2 onlyoffice-documentserver-pro`
+`docker run -i -t -d -p 80:80 --name onlyoffice-documentserver-chinese onlyoffice-documentserver-chinese`
 
 ##### b. 手动修改
 自己build镜像，修改字体、字号、bug、配置文件，目前提供的web-apps是修改过的文件，已经增加了字号，若还想自己编辑这些功能，请参考链接：https://www.douban.com/note/754817950/

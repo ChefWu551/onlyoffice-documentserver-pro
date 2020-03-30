@@ -1,5 +1,6 @@
-# 打包自己的镜像，防止因为官方变化导致敬爱那个不可用
-FROM registry.cn-hangzhou.aliyuncs.com/wuyuefeng/onlyoffice-documentserver
+# 打包自己的镜像，防止因为官方变化导致镜像那个不可用
+#FROM registry.cn-hangzhou.aliyuncs.com/wuyuefeng/onlyoffice-documentserver
+FROM onlyoffice/documentserver:5.4.2.46
 MAINTAINER wuyuefeng
 # 删除没用的字体
 RUN rm -rf /var/www/onlyoffice/documentserver/core-fonts/*
